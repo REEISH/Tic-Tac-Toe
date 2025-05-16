@@ -1,0 +1,73 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 243);
+}
+
+#play {
+    display: flex;
+    width: 15%;
+    height: 50%;
+    background-color: green;
+    border-radius: 2vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.7vh;
+    font-size: 5vh;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(71, 72, 70);
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    width: 48vh;
+    height: 48vh;
+    justify-content: center;
+    align-items: center;
+    grid-template: 16vh 16vh 16vh / 16vh 16vh 16vh;
+}
+
+.game {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-width: 0.4vh;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    font-weight: 700;
+    background-color: rgb(231, 123, 84);
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 5vh;
+    color: black;
+    font-style: italic;
+}
